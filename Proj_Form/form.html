@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>College Enrollment Form</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body align="center" style="background:khaki;">
+	  <div frame="box" >
+		<h1>College Enrollment Form</h1>
+		<hr>
+		<br>
+		<FORM method="#">    
+		<TABLE align="center" frame="box">
+		  <TR>
+			<TD>First Name</TD>
+			<TD><INPUT TYPE="text" NAME="fname" SIZE="25" required></TD> 
+			<TD>Last Name</TD>         
+			<TD><INPUT TYPE="text" NAME="lname" SIZE="25" required></TD>     
+		  </TR>
+		  <TR>
+			<TD>Phone Number</TD> 
+			<TD><INPUT TYPE="tel" NAME="phone" SIZE="25" required></TD>  
+			<TD>E-mail</TD>        
+			<TD><INPUT TYPE="email" NAME="email" SIZE="25" required></TD> 
+		  </TR>
+		  <TR>
+			<TD>Address</TD>            
+			<TD colspan="3"><INPUT TYPE="textarea" NAME="address" size="71" rows="5" required></TD>     
+		  </TR>  
+		  <TR>
+			<TD>Guardian Name</TD>
+			<TD><INPUT TYPE="text" NAME="gname" SIZE="25" required></TD> 
+			<TD>Guadian Phone</TD>         
+			<TD><INPUT TYPE="tel" NAME="gphone" SIZE="25" required></TD>     
+		  </TR>
+		  <TR>
+			<td>Gender</td>
+			<td><input type="radio" name="gender">Male &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="gender" required>Female</td> 
+			<td>Course</td> 
+			<td><select style="width:210px;" required>
+				<option>Select from Dropdown</option>
+				<option>B COM</option>
+				<option>B A</option>
+				<option>B Sc</option>
+				</select>
+			</td> 
+		  </TR> 
+		  <TR>
+			<TD>Scool Name</TD>
+			<TD><INPUT TYPE="text" NAME="schname" SIZE="25" required></TD> 
+			<TD>Date of Birth</TD>         
+			<TD><INPUT TYPE="date" NAME="bdate" style="width:205px;" required></TD>     
+		  </TR>
+		  <TR>
+			<TD>Scool Marks</TD>
+			<TD><INPUT TYPE="number" NAME="schmark" style="width:205px;" required></TD> 
+			<TD>Board</TD>         
+			<TD><select style="width:210px;">
+				<option>Select Board from Dropdown</option>
+				<option>SSC</option>
+				<option>ICSE</option>
+				<option>CBSE</option>
+				<option>IB</option>
+				</select>
+			</TD>     
+		  </TR>
+		  <tr>
+			<td style="width:110px;">Upload Image</td>
+			<td><INPUT TYPE="text" size="25" placeholder="UPLOAD IMAGE" required></td>
+			<td colspan="2"><input type="checkbox" align="left" required><strong style="color:red"> &nbsp;I accept terms and conditions.</strong></td>
+			
+		  </tr>
+		</TABLE>
+		<br>
+		<INPUT TYPE="SUBMIT" VALUE="Register" NAME="register" style="width:205px; background:green; color:white; padding:5px;">
+		<INPUT TYPE="RESET" VALUE="RESET" NAME="reset" style="width:205px; background:gray; color:white; padding:5px;">
+		</FORM>
+	  </div>
+	</body>
+
+</html>
