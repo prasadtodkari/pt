@@ -23,18 +23,18 @@
   .calc-screen {  
     background: #3A4655;  
     width: 100%;  
-    height: 150px;  
+    height: 100px;  
     padding: 20px;  
   }  
   .calc-operation {  
     text-align: right;  
     color: #727B86;  
     font-size: 21px;  
-    padding-bottom: 10px;  
+    
     border-bottom: dotted 1px;  
   }  
   .calc-typed {  
-    margin-top: 20px;  
+    
     font-size: 45px;  
     text-align: right;  
     color: #fff;  
@@ -57,26 +57,7 @@
     border-bottom: solid 2px #3C4857;  
     transition: all 0.2s ease-in-out;  
   }  
-  .button.l {  
-    color: #AEB3BA;  
-    background: #404D5E;  
-  }  
-  .button.c {  
-    color: #D95D4E;  
-    background: #404D5E;  
-  }  
-  .button:hover {  
-    background: #E0B612;  
-    transform: rotate(5deg);  
-  }  
-  .button.c:hover {  
-    background: #E0B612;  
-    color: #fff;  
-  }  
-  .button.l:hover {  
-    background: #E0B612;  
-    color: #fff;  
-  }  
+
   .blink-me {  
     color: #E0B612;  
   }  
