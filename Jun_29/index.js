@@ -1,9 +1,9 @@
 
 
 
-let myArr = [3, 5, 12, 76, 12];
-let i = 0;
-let count = myArr.length;
+// let myArr = [3, 5, 12, 76, 12];
+// let i = 0;
+// let count = myArr.length;
 
 /* let sum = 0;
 
@@ -30,4 +30,15 @@ console.log(sum); */
 
 // console.log(min);
 
-let ar = [1, 2, 5, "somthing", false];
+//let ar = [1, 2, 5, "somthing", false];
+
+let nam = "Samantha Ruth Prabhu";
+let count = 0;
+
+  for (var i = 0; i <= nam.length -1; i++) {
+    if ('aeiou'.includes(nam[i].toLowerCase())) {
+      count += 1;
+    }
+  }
+
+  console.log(count);
