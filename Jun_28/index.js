@@ -35,7 +35,7 @@ while( even < 100){
 } 
 
 //Task of the day
-let prime = 34552;
+let prime = 49;
 if (prime%2 == 0){
     console.log("This is not a Prime Number")
 } else{
