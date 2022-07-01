@@ -33,10 +33,40 @@ function odd(){
         }
     }
     
-function avg(num1, num2, num3, num4){
-    let average = (num1 + num2 + num3 + num4) /4;
-    return average;
+// function avg(num1, num2, num3, num4){
+//     let average = (num1 + num2 + num3 + num4) /4;
+//     return average;
+// }
+
+
+// console.log(avg(12,54, 16, 21));
+
+
+function prime(numb){
+    let count = 2;
+    let isPrime = true;
+
+    while(count <= numb - 1) {
+    if(numb % count == 0) {
+        isPrime = false;
+    }
+    count = count + 1;
+    }
+
+    if(isPrime == true) {
+    return numb;
+    } else {
+    console.log("No, It is not a prime number");
+    }
 }
 
+prime(9);
 
-console.log(avg(12,54, 16, 21));
+function check_prime(){
+    for (let i = 1; i < 100; i = i + 1){
+        console.log(i);
+       prime(i);
+    }
+}
+
+//check_prime();
