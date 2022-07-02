@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Trispace:wght@100;500&display=swap');
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+    font-family: 'Trispace', sans-serif; /* scond is for follback */
+}
+
+hr{
+    width: 900px;
+    height: 2px;
+    background-color: #4CAF50;
+}
+
+div{
+    margin: auto;
+    width: 40%;
+}
+
+.button {
+    background-color: white; 
+    border: none;
+    color: black; 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+.task1 {
+    border: 2px solid #4CAF50;
+    border-radius: 12px;
+}
+
+.task2 {
+    border: 2px solid #ffa500;
+    border-radius: 12px;
+}
+
+.task3 {
+    border: 2px solid #ec1426;
+    border-radius: 12px;
+}
+
+.task4 {
+    border: 2px solid #149dec;
+    border-radius: 12px;
+}
