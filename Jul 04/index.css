@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Trispace:wght@100;500&display=swap');
+*{
+    margin-top: 25px;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+    font-family: 'Trispace', sans-serif; /* scond is for follback */
+}
+
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #e0850d;
+    font-family: 'Trispace', sans-serif; /* scond is for follback */
+}
+
+h5{
+    text-align: center;
+    color: #0d93e0;
+    text-transform: uppercase;
+    font-family: 'Trispace', sans-serif; /* scond is for follback */
+}
+
+hr{
+    width: 900px;
+    height: 2px;
+    background-color: #4CAF50;
+}
+
+.task{
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    width: auto;
+    margin: auto;
+}
+
+input{
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    height: 30px;
+    font-weight: 300;
+}
+
+.button {
+    background-color: white; 
+    border: none;
+    color: black; 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    cursor: pointer;
+}
+
+.mid{
+    display: flex;
+    justify-content: center;
+}
+
+
+.task2 {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #6c7275;
+    color: #fff;
+    border-radius: 1px;
+    background-color: #4CAF50;
+}
+
+.dom {
+    border: 2px solid #ec1426;
+    background-color: #ec1426;
+    color: #fff;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 12px;
+}
+
