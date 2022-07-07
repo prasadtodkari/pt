@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Trispace:wght@100;500&display=swap');
+body{
+    font-family: 'Trispace', sans-serif; /* scond is for follback */
+}
+
+h2{
+    color: aqua;
+    
+}
+nav{
+    display: flex;
+    justify-content: right;
+}
+
+.logo{
+    width: 20%;
+    height: 50px;
+    color: red;
+    margin: 0%;
+    float: left;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+ul > li{
+    padding-left: 5px;
+  }
+
+  li > a{
+    text-decoration: none;
+  }
+  li > a:hover {
+    color: hotpink;
+}
+
+  table{
+    background-color: #f7f7f7;
+    width: 60%;
+  }
+
+  table > .head {
+    color: #000;
+  }
+
+  table, th, td{
+    border-bottom: 2px solid;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    height: 30px;
+  }
+
+  tbody tr:nth-child(even){
+    background-color: #1dc20e;
+    color: #ffffff;
+    padding-left: 5px;
+  }
+
+  tbody tr:nth-child(odd){
+    background-color: #656b65;
+    color: #ffffff;
+    padding-left: 5px;
+  }
+
+  tbody > .first{
+    color: #ff0000;
+  }
+
+  tbody > .second{
+    color: #4e11f7;
+  }
+  
+  tbody > .third{
+    color: #0ddf0d;
+  }
+
+  #this ~ li {
+    color: #ff0000;
+  }

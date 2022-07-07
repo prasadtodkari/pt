@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Trispace:wght@100;500&display=swap');
+*{
+    font-family: 'Trispace', sans-serif; /* scond is for follback */
+}
+
+.header{
+    width: 100%;
+    display: grid; /*grid helps me to manage content in one row  */
+    grid-template-columns: auto auto; /* devided and allocate space to each element */ 
+}
+
+/* my index logo */
+.logo{
+    width: auto;
+    height: 50px;
+    margin: 0%;
+    float: left;
+}
+
+/* nav bar design satart */
+ul{
+    display: flex;
+    justify-content: right;
+    list-style-type: none; /* to remove dots before name of li*/
+}
+
+ul > li{
+    padding-left: 10px;
+    text-align: center;
+    margin: 5px;
+}
+
+li > a{
+    color: #000000;
+    text-decoration: none; /* to remove default hyperlink design (Underline below the text) */
+}
+
+li > a:hover{
+    color: aqua;
+    border-color: #000000;
+}
+
+/* nav bar design end */
+
+/* Body design start */
+div{
+    background: #3a3838;
+    width: 90%;
+    max-width: 460px;
+    height: auto;
+    margin-left: 160px; 
+    display: block;
+    color: #fff;
+}
+
+h3{
+    text-align: center;
+    padding-top: 10px;
+    color: #ff7b00;
+}
+h4{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+/* design for each table head and table data */
+th, td {
+    text-align: center;
+    padding: 8px;
+  }
+/* design only for table head */
+th {
+    background-color: #04AA6D;
+    color: white;
+  }
+/* highlighted odd and even rows     */
+  tbody tr:nth-child(odd){
+    color: #04AA6D;
+  }
+
+  tbody tr:nth-child(even){
+    background-color: #474745;
+    color: #fff;
+  }
+/* last child sunday to be red */
+  tbody tr td:last-child{
+    color: red;
+  }
+/* second last child saturday to be optional holiday */
+  tbody tr td:nth-child(6){
+    color: #ff7b00;
+  }
+/* table head last child  */
+  thead th:last-child{
+    background-color: #dd0909;
+  }
+
+/* table head second last child */
+  thead th:nth-child(6){
+    background-color: #ff7b00;
+  }
+
+/* Previous month dates  */
+  #start td:nth-child(-n + 4){
+  color: grey;
+}
+
+/* for effects on mouse hover */
+  tbody tr td:hover{
+    background-color: #04AA6D;
+    color: #fff;
+  }
+
+/* Special day OR holiday mentioned in table footer */
+  tfoot td{
+    background-color: #04AA6D;
+    color: #fff;
+    font-size: small;
+  }
