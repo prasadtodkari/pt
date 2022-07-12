@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Trispace:wght@100;500&display=swap');
+
+*{
+    text-align: center;
+}
+h2{
+    font-family: 'Trispace', sans-serif;
+}
+
+p{
+    font-family: 'Sofia', cursive;
+    font-size: 16px;
+}
+
+p::first-letter{
+    color: rgb(47, 50, 236);
+    font-size: 200%;
+}
+
+button{
+    margin-right: 20px;
+    font-size: 16px;
+    padding: 5px;
+    background-color: #008CBA;
+    border-style: none;
+    color: #ffffff;
+}
+
+button:hover{
+    border-style: none;
+    background-color: #ffffff;
+    text-decoration-line: underline;
+    color: blue;
+    font-size: 16px;
+}
+
+a{
+    font-size: 16px;
+}
+
+a:hover{
+    border-style: none;
+    padding: 5px;
+    background-color: #008CBA;
+    text-decoration: none;
+    color: #ffffff;
+}
