@@ -1,5 +1,5 @@
 
-
+function imggal(){
 let imgsrc = ["https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?k=20&m=517188688&s=612x612&w=0&h=i38qBm2P-6V4vZVEaMy_TaTEaoCMkYhvLCysE7yJQ5Q=", 
             "https://media.istockphoto.com/photos/picturesque-morning-in-plitvice-national-park-colorful-spring-scene-picture-id1093110112?s=612x612",
             "https://media.istockphoto.com/photos/fantastic-morning-view-of-plitvice-national-park-colorful-spring-of-picture-id1294247745?k=20&m=1294247745&s=612x612&w=0&h=vnMgXlQgXr-U8BP5U7IgAuC4Rp1EqJaRi7_4SHGjrpQ=",
@@ -40,10 +40,10 @@ let imgsrc = ["https://media.istockphoto.com/photos/mountain-landscape-picture-i
     /* Loop to add Images in Html Div */
     for(i = 1; i < imgsrc.length; i++){
         let l = document.createElement("img");
-        console.log(l); 
 
         l.src = imgsrc[i];
         console.log(l.src); // to check the path
-        document.body.appendChild(l);
+        let d = document.getElementById("gal");
+        d.appendChild(l);
      }
-     
+    }
