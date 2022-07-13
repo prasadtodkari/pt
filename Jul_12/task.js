@@ -34,9 +34,8 @@ let imgsrc = ["https://media.istockphoto.com/photos/mountain-landscape-picture-i
             "https://media.istockphoto.com/photos/mountain-landscape-ponta-delgada-island-azores-picture-id944812540?k=20&m=944812540&s=612x612&w=0&h=U3sC5L6ZJY2oHC33eixu4CcB15JsgKl0Wnhtcpf_p40=",
         
         ];
-
-
-    console.log(imgsrc.length);
+        /* array closed */
+        console.log(imgsrc.length);
     /* Loop to add Images in Html Div */
     for(i = 1; i < imgsrc.length; i++){
         let l = document.createElement("img");
