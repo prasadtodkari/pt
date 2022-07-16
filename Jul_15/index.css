@@ -1,0 +1,74 @@
+
+.country{
+  display: flex;   
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+}
+
+.country-name{
+    border: 2px solid #000000;
+    padding: 25px;
+    background-color: #f14f4f;
+    font-size: large;
+    color: #fff;
+}
+
+.number{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    content: justify;
+}
+
+.numberOdd{
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 50px;
+    color: #fff;
+    background-color: #20dd2a;
+}
+
+.numberEven{
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 50px;
+    color: #000;
+    background-color: #8ee0eb;
+}
+
+
+.marklist{
+    width: 35%;
+    border: 2px solid #000;
+    margin: 10px;
+    padding: 20px;
+    color: #f14f4f;
+}
+
+.pass{
+    width: 35%;
+    border: 2px solid #000;
+    margin: 10px;
+    padding: 20px;
+    background-color: green;
+    color: #fff;
+}
+
+.avg{
+    width: 35%;
+    border: 2px solid #000;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(28, 175, 219);
+    color: #fff;
+}
+
+.fail{
+    width: 35%;
+    border: 2px solid #000;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(236, 15, 15);
+    color: #fff;
+}
