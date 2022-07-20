@@ -18,6 +18,7 @@ for (item of buttons) {
         // system default function to calculate clicked button value
         else if (buttonText == '=') {
             display.value = eval(dispValue);
+            dispValue = "";
         }
         // else display whatever is clicked by user on screen
         else {
