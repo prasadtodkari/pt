@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Trispace:wght@100;500&display=swap');
+
+h2{
+    color: #f14453;
+    margin: 10px;
+    text-align: center;
+}
+
+p{
+    color: blue;
+    font-size: small;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Trispace', sans-serif;
+    justify-content: center;
+}
+
+
+body{
+    justify-content: center;
+    align-content: center;
+    min-height: 1920px;
+    background-color: #e7e4e4;
+}
+section{
+    position: relative;
+    padding: 20px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+}
+
+.product_container{
+    width: 100%;
+    background-color: #fff;
+}
+
+.product_container .img-box{
+    position: relative;
+    width: 100%;
+    height: 310px;
+    overflow: hidden;
+}
+.product_container .img-box img{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+}
+
+
+.productName h3{
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    margin: 5px;
+    height: 80px;
+    overflow: auto;
+}
+
+.product_content .price_rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+h5{
+    color: #f14453;
+    font-size: 20px;
+}
+
+.product_content button{
+    margin: 20px;
+    width: 80%;
+    background-color: #f14453;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #fff;
+    border: 1px solid #f14453;
+    color: #f14453;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background-color: #000;
+    cursor: pointer;
+}
+.overlay p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.img-box:hover .overlay{
+    opacity: 0.8;
+}
