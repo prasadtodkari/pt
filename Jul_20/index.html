@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jul 20 - Checkout Page</title>
+    <meta author="Prasad Todkari" />
+    <link rel="shortcut icon" href="../asset/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h2>Task - Jul 20, 2022 Checkout Functionality</h2>
+    <hr>
+    <div class="container">
+        <h3>Checkout Page</h3>
+        <table>
+            <thead>
+                <th>Sr No</th>
+                <th></th>
+                <th>Product Name</th>
+                <th>Qty</th>
+                <th>Price</th>
+                <th>Total</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><img src="https://static.zajo.net/content/mediagallery/zajo_dcat/image/product/types/X/9088.png" alt=""></td>
+                    <td>T - Shirt</td>
+                    <td><button id="min1">-</button><input id="qty1" type="text" value="1"><button id="add1">+</button><br><p id="max"></p></p></td>
+                    <td><p id="price1">₹ 350</p></td>
+                    <td><p id="tot1">₹ 350</p></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><img src="https://pngimg.com/uploads/jeans/jeans_PNG5766.png" alt=""></td>
+                    <td>Jeans (blue)</td>
+                    <td><button id="min2">-</button><input id="qty2" type="text" value="1"><button id="add2">+</button></td>
+                    <td><p id="price2">₹ 850</p></td>
+                    <td><p id="tot2">₹ 850</p></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><img src="https://freepngimg.com/thumb/shoes/27428-5-nike-shoes-transparent-background.png" alt=""></td>
+                    <td>Nike Sports Shoes</td>
+                    <td><button id="min3">-</button><input id="qty3" type="text" value="1"><button id="add3">+</button>
+                        <br>
+                        <p id="alert"></p>
+                    </td>
+                    <td><p id="price3">1730</p></td>
+                    <td><p id="tot3">₹ 1730</p></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5" style="text-align: right;">Cart Total :</td>
+                    <td><p id="sum">₹ 2930</p></td>
+                </tr>
+
+            </tfoot>
+        </table>
+
+    </div>
+
+    
+
+
+    <script src="./index.js"></script>
+</body>
+</html>

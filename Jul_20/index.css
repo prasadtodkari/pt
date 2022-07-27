@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Trispace:wght@100;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+h2{
+    font-family: 'Trispace', sans-serif;
+    color: #f12458;
+}
+
+h3{
+    font-family: 'Trispace', sans-serif;
+    color: #eb9d0d;
+    text-decoration: underline;
+    padding: 20px;
+    text-align: left;
+}
+
+.container{
+    width: 50%;
+    margin-left: 25%;
+    align-content: center;
+    border: 2px solid #020616;
+}
+
+table {
+    margin: 5%;
+    border-collapse: collapse;
+    width: 80%;
+
+}
+th{
+    background-color: #f12458;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+td{
+    border-bottom: 2px solid #f12458;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: auto;
+    text-align: center;
+}
+
+td > img{
+    width: 32px;
+    height: 32px;
+}
+
+img:hover{
+    transform: scale(3.5); 
+}
+
+button{
+    margin: 2px;
+    background-color: #f12458;
+    color: #fff;
+    border: 2px solid #f12458;
+    
+}
+input{
+    width: 25px;
+}
+
+tfoot > tr > td{
+    background-color: #f12458;
+    color: #fff;
+    font-weight: 800;
+    padding-bottom: 5px;
+    text-decoration: underline double;
+    text-underline-offset: 5px;    
+}
+
+#alert{
+    color: red;
+    font-size: small;
+}

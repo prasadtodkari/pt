@@ -3,6 +3,38 @@
 *{
     text-align: center;
 }
+nav{
+    display: flex;
+    justify-content: right;
+}
+
+.logo{
+    width: 20%;
+    height: 50px;
+    color: red;
+    margin: 0%;
+    float: left;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+ul > li{
+    padding-left: 5px;
+  }
+
+  li > a{
+    text-decoration: none;
+  }
+  li > a:hover {
+    color: hotpink;
+}
+
+
 h2{
     font-family: 'Trispace', sans-serif;
     color: #f50c0c;
@@ -25,12 +57,9 @@ p::first-letter{
     justify-content: center;
 }
 
-img{
-    width: 160px;
-    height: 80px;
-    margin-right: 5px;
-}
 
 span{
     color: #f50c0c;
 }
+
+
