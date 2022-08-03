@@ -1,0 +1,36 @@
+
+*{
+  text-align: center;
+}
+#mountNode{
+  height: 400px;
+  background: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reset{
+  margin-left: 10px;
+  background: orange;
+}
+button{
+  min-width: 72px;
+  outline: none;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  text-transform: uppercase;
+  color: white;
+  background: #f44336;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+}
+
+.start{
+  background: #50c950;
+  margin: 10px;
+}
+
+h4::first-letter{
+    color: blue;
+}
