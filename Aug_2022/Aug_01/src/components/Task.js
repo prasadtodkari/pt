@@ -13,7 +13,8 @@ class Task extends React.Component{
     }
      
     addList = () => {
-        this.state.test.push(`${this.state.task}`);
+        this.setState({ task: target.value}) 
+        this.test.push(`${this.state.task}`);
     }
 
     toggleCheck = (e) => {
