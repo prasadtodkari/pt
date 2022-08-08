@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Trispace:wght@100;500&display=swap');
+*{
+  text-align: center;
+  font-family: 'Trispace', sans-serif;
+}
+header{
+  border-bottom: 1px solid orangered;
+}
+h2{
+  color: #b10740;
+}
+p::first-letter{
+  color: red;
+}
+
+img{
+  width: 320px;
+  height: 200px;
+  border: 1px solid;
+}
+
+.gal{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  gap: 10px;
+}
+
+input[type=text]{
+  margin: 10px;
+  padding: 10px;
+}
+button{
+  margin: 10px;
+  padding: 10px;
+  background-color: #2cdb15;
+  font: white;
+  border: none;
+  border-radius: 10px;
+}
