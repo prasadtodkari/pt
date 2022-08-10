@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia&family=Trispace:wght@100;500&display=swap');
 *{
-  text-align: center;
   font-family: 'Trispace', sans-serif;
+  background-color: #0f0e0e;
 }
 header{
+  text-align: center;
   border-bottom: 1px solid orangered;
 }
 h2{
-  color: #b10740;
+  color: #21bce2;
+}
+p{
+  color: white;
 }
 p::first-letter{
   color: red;
@@ -26,15 +30,90 @@ img{
   gap: 10px;
 }
 
-input[type=text]{
+input{
+  width: 360px;
   margin: 10px;
   padding: 10px;
+  border: none;
+  color: beige;
+  border-bottom: 1px solid white;
 }
+
+input:focus{
+  outline: none;
+}
+
 button{
   margin: 10px;
   padding: 10px;
-  background-color: #2cdb15;
-  font: white;
-  border: none;
+  background-color: white;
+  border: 1px solid black;
   border-radius: 10px;
+  font-family: 'Trispace', sans-serif;
+}
+button:hover{
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+}
+
+.sum{
+  padding-left: 25%;
+  margin: 20px;
+  width: 360px;
+}
+
+.sum input{
+  padding: 10px;
+  margin: 10px;
+}
+
+.search{
+  text-align: center;
+}
+.result{
+  width: auto;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: middle;
+  margin: 30px;
+}
+
+h4{
+  width: 90%;
+  background-color: lightgrey;
+  border-radius: 20px;
+  margin: 5px;
+  font-family: 'Trispace', sans-serif;
+  padding: 5px 0px 5px 15px;
+}
+audio{
+  width: 90%;
+  margin: 5px;
+}
+li{
+  list-style-type: number;
+  color: orangered;
+  padding: 5px 0px 5px 15px;
+}
+
+h6{
+  width: 40%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+table{
+  width: 70%;
+  color: white;
+  border: 1px solid #21bce2;
+  align-items: center;
+  text-align: center;
+}
+tr{
+  border: 1px solid #21bce2;
 }
